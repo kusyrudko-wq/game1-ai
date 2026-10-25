@@ -1,0 +1,11 @@
+{
+  "python": "3.13.5",
+  "system": "Linux",
+  "command": "python experiments.py",
+  "model_sha256": "d9aff8583e0704790e4e61d9d6c1946c0ce32640bebd75808d42f61e20b4c573",
+  "matches_bundled_model_bytes": true,
+  "curve_games_per_opponent": 1000,
+  "final_games_per_opponent": 10000,
+  "training_seed": 42,
+  "evaluation_seed": 7
+}

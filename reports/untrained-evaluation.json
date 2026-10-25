@@ -1,0 +1,259 @@
+{
+  "model_metadata": {},
+  "states_in_table": 0,
+  "random": {
+    "opponent": "random",
+    "games": 10000,
+    "seed": 7,
+    "policy": "deterministic greedy; no learning",
+    "by_side": {
+      "X": {
+        "wins": 3849,
+        "draws": 238,
+        "losses": 913
+      },
+      "O": {
+        "wins": 2251,
+        "draws": 197,
+        "losses": 2552
+      }
+    },
+    "wins": 6100,
+    "draws": 435,
+    "losses": 3465,
+    "score_rate": 0.63175
+  },
+  "minimax": {
+    "opponent": "minimax",
+    "games": 10000,
+    "seed": 7,
+    "policy": "deterministic greedy; no learning",
+    "by_side": {
+      "X": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 5000
+      },
+      "O": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 5000
+      }
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 10000,
+    "score_rate": 0.0
+  },
+  "exhaustive_from_empty": [
+    {
+      "agent_side": "X",
+      "worst_case_score": -1,
+      "cannot_lose_from_empty": false,
+      "positions_checked": 160,
+      "example_worst_case_line_1_to_9": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "agent_side": "O",
+      "worst_case_score": -1,
+      "cannot_lose_from_empty": false,
+      "positions_checked": 374,
+      "example_worst_case_line_1_to_9": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "all_positions_audit": {
+    "reachable_positions": 5478,
+    "decision_states": 4520,
+    "suboptimal_decisions": 1869,
+    "optimal_at_every_reachable_state": false,
+    "first_10_mistakes": [
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          1,
+          1
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": 0
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          0,
+          1,
+          1,
+          -1,
+          1,
+          0
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          1,
+          -1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          1,
+          -1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          1
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": 0
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          -1
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          -1,
+          0
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      },
+      {
+        "board": [
+          -1,
+          -1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          -1
+        ],
+        "player": 1,
+        "move_1_to_9": 3,
+        "optimal_value": 1,
+        "chosen_move_value": -1
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "passed": [
+    "-m tictactoe --help",
+    "-m tictactoe play",
+    "-m tictactoe play --human O",
+    "-m tictactoe play --opponent random",
+    "-m tictactoe play --opponent minimax",
+    "train with custom paths",
+    "existing training output protection",
+    "evaluation model-overwrite protection",
+    "evaluate newly trained model",
+    "invalid training parameters fail safely"
+  ]
+}

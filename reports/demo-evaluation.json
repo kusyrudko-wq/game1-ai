@@ -1,0 +1,101 @@
+{
+  "model_metadata": {
+    "alpha": 0.2,
+    "episodes": 200000,
+    "epsilon_decay_fraction": 0.8,
+    "epsilon_end": 0.1,
+    "epsilon_start": 1.0,
+    "evaluation_tie_break": "lowest legal index among exact Q maxima",
+    "gamma": 1.0,
+    "seed": 42,
+    "training": "self-play from an empty Q table; no expert labels"
+  },
+  "states_in_table": 4520,
+  "random": {
+    "opponent": "random",
+    "games": 10000,
+    "seed": 7,
+    "policy": "deterministic greedy; no learning",
+    "by_side": {
+      "X": {
+        "wins": 4974,
+        "draws": 26,
+        "losses": 0
+      },
+      "O": {
+        "wins": 4018,
+        "draws": 982,
+        "losses": 0
+      }
+    },
+    "wins": 8992,
+    "draws": 1008,
+    "losses": 0,
+    "score_rate": 0.9496
+  },
+  "minimax": {
+    "opponent": "minimax",
+    "games": 10000,
+    "seed": 7,
+    "policy": "deterministic greedy; no learning",
+    "by_side": {
+      "X": {
+        "wins": 0,
+        "draws": 5000,
+        "losses": 0
+      },
+      "O": {
+        "wins": 0,
+        "draws": 5000,
+        "losses": 0
+      }
+    },
+    "wins": 0,
+    "draws": 10000,
+    "losses": 0,
+    "score_rate": 0.5
+  },
+  "exhaustive_from_empty": [
+    {
+      "agent_side": "X",
+      "worst_case_score": 0,
+      "cannot_lose_from_empty": true,
+      "positions_checked": 166,
+      "example_worst_case_line_1_to_9": [
+        1,
+        5,
+        2,
+        3,
+        7,
+        4,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "agent_side": "O",
+      "worst_case_score": 0,
+      "cannot_lose_from_empty": true,
+      "positions_checked": 782,
+      "example_worst_case_line_1_to_9": [
+        1,
+        5,
+        2,
+        3,
+        7,
+        4,
+        6,
+        8,
+        9
+      ]
+    }
+  ],
+  "all_positions_audit": {
+    "reachable_positions": 5478,
+    "decision_states": 4520,
+    "suboptimal_decisions": 0,
+    "optimal_at_every_reachable_state": true,
+    "first_10_mistakes": []
+  }
+}
